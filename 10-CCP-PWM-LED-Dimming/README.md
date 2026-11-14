@@ -86,7 +86,7 @@ The following screenshots will be added after implementation and verification:
 
 **Planned image files:**
 
--10-CCP-PWM-LED-Dimming/Images/circuit_simulation.png
+Images/circuit_simulation.png
 
 
 
