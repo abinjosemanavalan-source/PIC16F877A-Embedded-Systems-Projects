@@ -8,15 +8,8 @@ This repository organizes the supplied project files into individual project fol
 
 ---
 
-## Portfolio Status
 
-> **Note:** Source and project files are available for most exercises. Simulation and hardware tests were not independently performed during repository organization. The actual CCP PWM implementation could not be identified in the supplied files. Refer to individual project READMEs for implementation details and TODOs.
 
-- Duplicate Project 10 LM35 candidate: retained under `_REVIEW/Alternative-Implementations/`.
-- Original workspace files: preserved under `_REVIEW/Original-Workspace-Backups/`.
-- Organization details: available in [ORGANIZATION_REPORT.md](ORGANIZATION_REPORT.md).
-
----
 
 ## About the PIC16F877A
 
@@ -47,7 +40,7 @@ Exact device operating conditions and electrical limits must be checked against 
 | Proteus Design Suite | Circuit design and simulation |
 | Git & GitHub | Version control and project hosting |
 
-*Tool versions and successful build/simulation environments are not recorded in the supplied material.*
+
 
 ---
 
@@ -83,7 +76,7 @@ The repository contains 10 numbered projects.
 | 09 – LDR Automatic Light | Source, MPLAB and Proteus | Direction and wiring need verification |
 | 10 – CCP PWM | Project documentation | Matching implementation not identified |
 
-Supplied project variants are retained. Verify file and image matching before simulation.
+
 
 ---
 
@@ -113,7 +106,6 @@ The available project files provide examples of the following embedded systems c
 - **ADC Conversion** – Analog input acquisition and basic scaling.
 - **LCD Interfacing** – LCD helper routines and formatted numeric output.
 - **Sensor Interfacing** – Analog sensor input and threshold-based control.
-- **Hysteresis** – Separate ON/OFF thresholds in the LDR source.
 - **Development Tools** – MPLAB X IDE and Proteus project organization.
 
 ---
@@ -200,7 +192,7 @@ Project-Name/
 
 Loose source folders found in the original workspace are preserved under `_REVIEW/Original-Workspace-Backups/`.
 
-The duplicate LM35-named implementation remains under `_REVIEW/Alternative-Implementations/` and is not presented as the CCP PWM project.
+
 
 ---
 
