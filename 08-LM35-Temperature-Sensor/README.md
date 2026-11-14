@@ -42,7 +42,15 @@ Not independently tested during organization. Source, project, and HEX artifact 
 
 ## Screenshots
 
-`Images/circuit_simulation.png` is the supplied image numbered 08. Its contents and correspondence to this specific Proteus variant have not been independently verified; do not treat it as proof of a tested simulation.
+### Proteus Circuit Simulation
+
+![LM35 Temperature Sensor Proteus Simulation](Images/circuit_simulation.png)
+
+*Original supplied project image. Its correspondence to the current Proteus implementation has not been independently verified.*
+
+**Image location:** `Images/circuit_simulation.png`
+
+
 
 ## Learning outcomes
 
