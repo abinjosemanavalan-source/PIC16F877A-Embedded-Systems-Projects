@@ -70,8 +70,27 @@ Detailed architecture provided in [`Documentation/PWM_SPECIFICATION.md`](Documen
 - **Portfolio Note:** In accordance with portfolio integrity rules, no imaginary source code or fake simulation tests have been fabricated. Complete register calculations, formulas, and pin mappings are documented in [`Documentation/PWM_SPECIFICATION.md`](Documentation/PWM_SPECIFICATION.md).
 - *(Note: The original workspace folder `Project_10.X` contained an alternative LM35 temperature monitoring design utilizing PORTB for LCD control; that design has been safely preserved under `_REVIEW/Alternative-Implementations/Project_10-LM35-PortB/`).*
 
-## 12. Screenshots
-*TODO: A screenshot of the Proteus simulation with oscilloscope waveform will be placed here upon firmware and circuit commit.*
+## Screenshots
+
+### Proteus Circuit Simulation
+
+**Status:** Simulation screenshot pending.
+
+The Proteus circuit and firmware implementation have not yet been committed to this project.
+
+The following screenshots will be added after implementation and verification:
+
+- Proteus circuit schematic.
+- PWM output waveform captured using the oscilloscope.
+- LED brightness variation during the duty-cycle sweep.
+
+**Planned image files:**
+
+- `Images/circuit_diagram.png`
+- `Images/pwm_waveform.png`
+- `Images/led_dimming_simulation.png`
+
+
 
 ## 13. Learning Outcomes
 - Understanding hardware PWM generation via dedicated microcontroller peripherals.
