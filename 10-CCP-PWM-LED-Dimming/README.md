@@ -86,9 +86,7 @@ The following screenshots will be added after implementation and verification:
 
 **Planned image files:**
 
-- `Images/circuit_diagram.png`
-- `Images/pwm_waveform.png`
-- `Images/led_dimming_simulation.png`
+- `Images/circuit_simulation.png`
 
 
 
