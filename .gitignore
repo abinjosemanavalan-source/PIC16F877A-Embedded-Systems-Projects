@@ -1,0 +1,49 @@
+# ==============================================================================
+# PIC16F877A Embedded Systems Projects - .gitignore
+# Microchip MPLAB X IDE, XC8 Compiler, and Proteus Design Suite
+# ==============================================================================
+
+# Compiler intermediate and preprocessor artifacts
+*.p1
+*.p1.d
+*.i
+*.sdb
+*.obj
+*.rlf
+*.cmf
+*.mum
+*.sym
+*.lst
+*.pre
+
+# MPLAB X build output directories
+build/
+nbproject/private/
+memoryfile.xml
+startup.as
+
+# Proteus temporary workspace backups and locks
+*.pdsbak
+*.pdsprj.*.workspace
+*.pdsprj.*.lck
+
+# Operating system metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor configurations
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Explicitly preserve critical production binaries and schematics
+!*.hex
+!*.pdsprj
+!*.c
+!*.h
+!project.xml
+!configurations.xml
+!Makefile*
